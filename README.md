@@ -200,4 +200,4 @@ Codex is credited as an AI assistant, not a human maintainer or a GitHub account
 
 The repository includes the [GNU GPL version 2 license text](LICENSE). Third-party components retain their respective licenses and notices.
 
-For this fork's engineering issues, contact [shida](mailto:shida.86@outlook.com) or use the repository issue tracker. Refer to [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) for the upstream implementation and original work.
+For this fork's engineering issues, contact [shida](shida.86@outlook.com) or use the repository issue tracker. Refer to [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) for the upstream implementation and original work.
