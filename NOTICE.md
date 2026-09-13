@@ -10,4 +10,4 @@ Local maintenance notices were added on **2026-09-13**. The existing package tem
 
 See [README](README.md) for engineering scope and [LICENSE](LICENSE) for the repository license text. Third-party components retain their own applicable licenses.
 
-The engineering fork is named **FAST-LIVO2-GNSS Odometry & Mapping**. Documentation is available in [English](README.md) and [中文](README.zh-CN.md). Local contributor and AI-assistance credits are recorded in [CONTRIBUTORS](CONTRIBUTORS.md).
+The engineering fork is named **FAST-LIVO2 Engineering — Odometry, Mapping & GNSS Integration**, with repository name `fast-livo2-gnss-engineering`. Documentation is available in [English](README.md) and [中文](README.zh-CN.md). Local contributor and AI-assistance credits are recorded in [CONTRIBUTORS](CONTRIBUTORS.md).

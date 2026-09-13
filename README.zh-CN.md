@@ -1,4 +1,4 @@
-# FAST-LIVO2-GNSS Odometry & Mapping
+# FAST-LIVO2 Engineering — 里程计、建图与 GNSS 集成
 
 [English](README.md) | **中文**
 
