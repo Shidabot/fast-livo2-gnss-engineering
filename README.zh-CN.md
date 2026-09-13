@@ -203,4 +203,4 @@ Codex 以 AI 助手身份获得贡献署名，不代表人类维护者或 GitHub
 
 仓库包含 [GNU GPL 第 2 版许可证文本](LICENSE)。第三方组件保留各自的许可证与声明。
 
-本分支的工程问题请联系 [shida](mailto:shida.86@outlook.com) 或在仓库提交 issue；上游实现及原始工作请参阅 [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)。
+本分支的工程问题请联系 [shida](shida.86@outlook.com) 或在仓库提交 issue；上游实现及原始工作请参阅 [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)。
