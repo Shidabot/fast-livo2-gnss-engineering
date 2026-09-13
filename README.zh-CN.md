@@ -186,14 +186,6 @@ GitHub Actions 运行 Debug/Release C++ 辅助测试和 Python 检查工具测�
 - 改造数据记录与地图导出，支持异步执行、失败报告和恢复。
 - 分离同步、估计、存储、ROS 适配和离线优化职责。
 
-## 贡献者
-
-| 贡献者 | 角色 |
-|---|---|
-| [shida / Shidabot](https://github.com/Shidabot) | 项目所有者、工程维护者与本地修改作者，负责集成和验证决策 |
-| Codex（OpenAI AI 编程助手） | 辅助代码审查、修复方案和双语文档 |
-
-Codex 以 AI 助手身份获得贡献署名，不代表人类维护者或 GitHub 账号。AI 辅助修改需要工程验证。详见 [贡献说明](CONTRIBUTORS.md)。原始 FAST-LIVO2 作者在下方单独致谢。
 
 ## 来源、作者与许可证
 
@@ -203,4 +195,3 @@ Codex 以 AI 助手身份获得贡献署名，不代表人类维护者或 GitHub
 
 仓库包含 [GNU GPL 第 2 版许可证文本](LICENSE)。第三方组件保留各自的许可证与声明。
 
-本分支的工程问题请联系 [shida](shida.86@outlook.com) 或在仓库提交 issue；上游实现及原始工作请参阅 [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2)。
