@@ -1,4 +1,6 @@
-# LiDAR–Visual–IMU–GNSS SLAM
+# FAST-LIVO2-GNSS Odometry & Mapping
+
+**English** | [中文](README.zh-CN.md)
 
 **An engineering development fork derived from [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2), with GNSS/RTK-constrained offline trajectory optimization and mapping.**
 
@@ -21,7 +23,11 @@ This repository is engineering work, not an academic contribution or a new SLAM 
 
 The online frontend performs LiDAR–inertial and visual updates. After collection, the offline backend aligns GNSS observations with the trajectory, builds a GTSAM factor graph and exports an optimized trajectory and global point cloud.
 
-**GNSS currently constrains the offline backend. Online RTK state correction is disabled.** The SLAM label describes the odometry and mapping scope; this working tree does not implement loop-closure detection.
+**This project is an odometry and mapping system with GNSS-constrained offline optimization.** The frontend estimates local motion and builds a point-cloud map; the backend corrects the collected trajectory using global position observations.
+
+Mapping can be part of a SLAM system, and loop closure is not a prerequisite for every use of the term SLAM. However, this working tree does not implement loop-closure detection or loop-closure constraints. Its documented scope is therefore **Odometry & Mapping**, rather than a complete SLAM stack.
+
+**GNSS currently constrains the offline backend. Online RTK state correction is disabled.**
 
 ![System workflow](pics/method_overview_en.png)
 
@@ -167,7 +173,7 @@ The checker validates finite odometry, quaternion normalization, frame labels, n
 
 GitHub Actions runs dependency-free C++ tests in Debug/Release and tests the Python checker. It does not currently build the full ROS estimator or perform dataset replay. No deployment pipeline is implemented.
 
-**Local verification:** six Python checker tests and static consistency checks passed. C++ tests, estimator compilation and real-data replay remain unexecuted in the current environment.
+**Verification:** GitHub Actions passed the dependency-free C++ tests in Debug/Release and the Python checker tests. Local static consistency checks also passed. Full ROS estimator compilation, the dependency-based IMU integration test and real-data replay remain unverified.
 
 ## Engineering roadmap
 
@@ -177,6 +183,15 @@ GitHub Actions runs dependency-free C++ tests in Debug/Release and tests the Pyt
 - Replace terminal-triggered optimization with an explicit session interface.
 - Make recording and map export asynchronous, failure-aware and recoverable.
 - Separate synchronization, estimation, storage, ROS adapters and offline optimization.
+
+## Contributors
+
+| Contributor | Role |
+|---|---|
+| [shida / Shidabot](https://github.com/Shidabot) | Project owner, engineering maintainer and local modification author; responsible for integration and validation decisions |
+| Codex (OpenAI AI coding assistant) | Assisted with code review, proposed fixes, regression-test tooling, CI configuration and bilingual documentation |
+
+Codex is credited as an AI assistant, not a human maintainer or a GitHub account. AI-assisted changes require engineering validation. See [contribution credits](CONTRIBUTORS.md). Original FAST-LIVO2 contributors are acknowledged separately below.
 
 ## Provenance, authorship and license
 
