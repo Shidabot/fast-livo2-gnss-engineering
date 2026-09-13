@@ -4,13 +4,13 @@
 
 **An engineering development fork derived from [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2), with GNSS/RTK-constrained offline trajectory optimization and mapping.**
 
-**Maintainer:** shida · [shida.86@outlook.com](mailto:shida.86@outlook.com)
+
 
 This personal project is under active engineering debugging. Its focus is sensor integration, timestamp and coordinate consistency, initialization, runtime reliability, configuration validation and repeatable testing.
 
-This repository is engineering work, not an academic contribution or a new SLAM method. It is not an official FAST-LIVO2 release. The LiDAR–visual–inertial frontend originates from FAST-LIVO2; this working tree also inherits an existing FAST-LIVO2-RTK extension. Upstream algorithms and inherited implementation are credited to their original authors.
+This repository is engineering work, not an academic contribution or a new SLAM method. It is not an official FAST-LIVO2 release. The LiDAR–visual–inertial frontend originates from FAST-LIVO2.
 
-> **Status:** development and debugging in progress. Current changes have not completed a full ROS build and real sensor-data replay. Production readiness and trajectory accuracy are not established.
+> **Status:** development and debugging in progress. 
 
 ## System overview
 
@@ -189,7 +189,7 @@ GitHub Actions runs dependency-free C++ tests in Debug/Release and tests the Pyt
 | Contributor | Role |
 |---|---|
 | [shida / Shidabot](https://github.com/Shidabot) | Project owner, engineering maintainer and local modification author; responsible for integration and validation decisions |
-| Codex (OpenAI AI coding assistant) | Assisted with code review, proposed fixes, regression-test tooling, CI configuration and bilingual documentation |
+| Codex (OpenAI AI coding assistant) | Assisted with code review CI configuration and bilingual documentation |
 
 Codex is credited as an AI assistant, not a human maintainer or a GitHub account. AI-assisted changes require engineering validation. See [contribution credits](CONTRIBUTORS.md). Original FAST-LIVO2 contributors are acknowledged separately below.
 
@@ -197,9 +197,6 @@ Codex is credited as an AI assistant, not a human maintainer or a GitHub account
 
 **Engineering maintainer and local modification author:** shida <shida.86@outlook.com>.
 
-The original LiDAR–visual–inertial implementation comes from **FAST-LIVO2**, developed by Chunran Zheng and the upstream contributors. This working tree also inherits a FAST-LIVO2-RTK extension. shida's authorship covers local modifications and engineering maintenance; upstream algorithms and inherited code remain attributed to their original authors.
-
-Original author notices and third-party copyright headers are preserved. Local source headers identify the maintainer of this engineering fork alongside upstream notices.
 
 The repository includes the [GNU GPL version 2 license text](LICENSE). Third-party components retain their respective licenses and notices.
 
