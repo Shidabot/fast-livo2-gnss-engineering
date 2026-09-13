@@ -1,0 +1,15 @@
+Log/*
+build/*
+devel/*
+PCD/*
+output/*
+
+build-utils/
+install/
+__pycache__/
+*.py[cod]
+.vscode/
+*.bag
+*.bag.active
+*.pcd
+*.ply

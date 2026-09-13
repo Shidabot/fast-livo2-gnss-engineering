@@ -1,0 +1,19 @@
+name: Regression tests
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  utility-tests:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure dependency-free tests
+        run: cmake -S . -B build -DFAST_LIVO_UTILS_ONLY=ON -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+      - name: Build
+        run: cmake --build build --parallel 2
+      - name: Test
+        working-directory: build
+        run: ctest --output-on-failure
+      - name: Test replay checker
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
