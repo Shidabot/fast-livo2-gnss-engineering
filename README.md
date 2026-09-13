@@ -184,14 +184,6 @@ GitHub Actions runs dependency-free C++ tests in Debug/Release and tests the Pyt
 - Make recording and map export asynchronous, failure-aware and recoverable.
 - Separate synchronization, estimation, storage, ROS adapters and offline optimization.
 
-## Contributors
-
-| Contributor | Role |
-|---|---|
-| [shida / Shidabot](https://github.com/Shidabot) | Project owner, engineering maintainer and local modification author; responsible for integration and validation decisions |
-| Codex (OpenAI AI coding assistant) | Assisted with code review CI configuration and bilingual documentation |
-
-Codex is credited as an AI assistant, not a human maintainer or a GitHub account. AI-assisted changes require engineering validation. See [contribution credits](CONTRIBUTORS.md). Original FAST-LIVO2 contributors are acknowledged separately below.
 
 ## Provenance, authorship and license
 
@@ -200,4 +192,4 @@ Codex is credited as an AI assistant, not a human maintainer or a GitHub account
 
 The repository includes the [GNU GPL version 2 license text](LICENSE). Third-party components retain their respective licenses and notices.
 
-For this fork's engineering issues, contact [shida](shida.86@outlook.com) or use the repository issue tracker. Refer to [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) for the upstream implementation and original work.
+Refer to [FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) for the upstream implementation and original work.
